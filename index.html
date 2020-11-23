@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Weather-SA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="header" style="text-align: center;">Welcome to Weather-SA</h1>
+            <div class="main">
+                <div class="info">
+                    <h3 id="location"></h3>
+                    <h6>Current</h6>
+                    <h1 id="temp"></h1>
+                    <h6 id="description"></h6>  
+                </div>
+                <div class="side">  
+                </div>
+            </div>
+            <br>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-5">
+                        <label for="search">Search location</label>
+                        <input type="text" class="form-control" id="search" placeholder="Type location..." required>
+                      </div>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.jumbotron{ 
+    background: url('./clouds.jpg');
+    background-size: cover ;
+}
+.header{
+    font-family: 'Piedra', cursive;
+    font-size: 50pt;
+    color: #66BB6A;
+}
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    border-radius: 5px;
+}
+.info{
+    grid-column-start: 0%;
+    grid-column-end: 60%; 
+    padding: 0.5%;
+    text-align: center;
+}
+.side{
+    grid-column-start: 60%;
+    grid-column-end: 100%;
+    margin: 6.8% 0 0 0;
+    border-top:1px solid yellow;
+    text-align: center;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    
+}
+#location{
+    border-bottom:1px solid yellow;
+} 
